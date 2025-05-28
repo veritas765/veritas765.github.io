@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.mvs{
+    width: 80%;
+    height: 50%;
+}
+
+
+/* 神経衰弱 */
+.but{
+    width: 100px;
+    height: 130px;
+    color: rgba(255, 255, 255, 0);
+    background-color:rgb(255, 90, 90);
+    margin: 5px;
+    font-size: 30px;
+    user-select:none;
+    transition: 0.5s ease-in-out;
+}
+
+.helpbutton{
+    width: 10px;
+    height: 10px;
+    background: transparent; /* 背景色を無色に */
+    border: none;  /* 枠線を消す */
+    outline: none; /* クリックした際に枠線をnone消す */
+    box-shadow: none; /* 影を消す */
+}
+
+p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.point{
+    width:300px;
+    height:50px;
+    font-size: 40px;
+    padding: 0.5em;/*文字周りの余白*/
+    color: #494949;
+}
+
+#playerpoint{
+    background: #ddfeff;/*背景色*/
+    border-left: solid 5px #66b0f1;/*左線（実線 太さ 色）*/
+}
+
+#cpupoint{
+    background: #ebffdd;/*背景色*/
+    border-left: solid 5px #66f194;/*左線（実線 太さ 色）*/
+}
+
+.boardtab{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+
+#pboardtab{
+    border: solid 5px #f1a566;
+    background:#ffeddd;
+}
+
+#eboardtab{
+    border: solid 5px #000000;
+    background:#a1a1a1;
+}
+
+.lose{
+    width: 730px;
+    height: 80px;
+    font-size: 50px;
+    color: #6cb4e4;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.25em;
+    border-top: solid 3px #6cb4e4;
+    border-bottom: solid 3px #6cb4e4;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+
+.win{
+    width: 640px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+    background: #fff4df;
+    box-shadow: 0px 0px 0px 5px #fff4df;
+    border: dashed 5px #ffbe0b;
+    padding: 0.2em 0.5em;
+    color: #3e3e3e;
+}
